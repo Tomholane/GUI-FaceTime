@@ -1,5 +1,6 @@
 var settingsmenu = document.querySelector(".setting-menu");
 var dropdowns = document.querySelector(".dropdown");
+var inputef = document.querySelector(".search-box")
 var darkBtn = document.getElementById("dark-btn");
 function SettingsMenuToggle()
 {
@@ -7,6 +8,7 @@ function SettingsMenuToggle()
 }
 function DropDownToggle()
 {
+    inputef.classList.toggle("alo")
     dropdowns.classList.toggle("dropdown-on");
 }
 darkBtn.onclick = function()
